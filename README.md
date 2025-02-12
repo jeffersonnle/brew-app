@@ -1,2 +1,0 @@
-# brew-app
-brew app
