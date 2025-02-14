@@ -1,5 +1,5 @@
 import React from "react";
-import { YStack, Text } from "tamagui";
+import { YStack, Text, useTheme } from "tamagui";
 
 const HomeScreen = () => {
   return (

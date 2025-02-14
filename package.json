@@ -15,6 +15,7 @@
     "@tamagui/stacks": "^1.124.10",
     "@tamagui/text": "^1.124.10",
     "@tamagui/theme": "^1.124.10",
+    "@tamagui/themes": "^1.124.13",
     "expo": "~52.0.32",
     "expo-status-bar": "~2.0.1",
     "react": "18.3.1",
@@ -22,7 +23,7 @@
     "react-native-safe-area-context": "^5.2.0",
     "react-native-screens": "^4.6.0",
     "react-native-svg": "^15.11.1",
-    "tamagui": "^1.124.10"
+    "tamagui": "^1.124.17"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",

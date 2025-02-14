@@ -6,7 +6,8 @@ import HomeScreen from "../screens/HomeScreen";
 import UserProfile from "../screens/UserProfile";
 import FeedScreen from "../screens/FeedScreen";
 import SearchScreen from "../screens/SearchScreen";
-import { XStack, Text, Button } from "tamagui";
+import RegisterScreen from "../screens/RegisterScreen";
+import { XStack,XGroup, Text, Button, useTheme } from "tamagui";
 
 const Tab = createBottomTabNavigator();
 
@@ -48,12 +49,15 @@ const CustomTabBar = ({ state, descriptors, navigation }) => {
 export default function Navbar() {
   return (
     <NavigationContainer>
+        
     <Tab.Navigator tabBar={(props) => <CustomTabBar {...props} />} screenOptions={{ lazy: false, animationEnabled: false }}>
         <Tab.Screen name="Feed" component={FeedScreen} />
         <Tab.Screen name="Home" component={HomeScreen} />
         <Tab.Screen name="Search" component={SearchScreen} />
         <Tab.Screen name="Profile" component={UserProfile} />
+        <Tab.Screen name="Register" component={RegisterScreen} />
     </Tab.Navigator>
+    
     </NavigationContainer>
   );
 }
